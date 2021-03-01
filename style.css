@@ -1,0 +1,19 @@
+.grid {
+  height: 560px;
+  width: 560px;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black
+    
+}
+.candy{
+    width: 65px;
+    background-color: white !important;
+    opacity: 1;
+    cursor: grab;
+}
