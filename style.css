@@ -1,19 +1,98 @@
 .grid {
-  height: 560px;
-  width: 560px;
+  height: 570px;
+  width: 570px;
   /* background-color: blue; */
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  /* margin: auto; */
+
+  /* background-size: cover; */
 }
 .grid div {
-    height: 70px;
-    width: 70px;
-    border: 2px solid black
-    
+  height: 69px;
+  width: 69px;
+  /* border: 1px solid black;
+ background-color:  black; */
+  /* opacity: 0.5; */
 }
-.candy{
-    width: 65px;
-    background-color: white !important;
-    opacity: 1;
-    cursor: grab;
+.candy {
+  width: 65px;
+  background-color: white !important;
+  opacity: 1;
+  cursor: grab;
+}
+.main {
+  background-image: url("images/bg-img-5.jpg");
+  background-size: cover;
+  /* opacity: .8; */
+  display: flex;
+  margin: auto;
+  width: 1280px;
+}
+.Score-board {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+#score {
+  color: white;
+  margin-top: 5px;
+  margin-left: 33px;
+}
+#score-img {
+  width: 120px;
+  height: 120px;
+}
+#splash_Screen {
+  position: absolute;
+}
+#splash_Screen img {
+  width: 1280px;
+  height: 600px;
+  background-size: cover;
+  cursor: pointer;
+}
+#btnContainer {
+  position: absolute;
+  top: 70vh;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+#btnContainer img {
+  width: 200px;
+  height: 100px;
+}
+#startBtn {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+#game_over_screen {
+  position: relative;
+}
+#go_screen {
+  /* position: absolute; */
+  /* width: 100%; */
+  text-align: center;
+  top: 30%;
+  margin-right: 509px;
+}
+.Count-Down {
+  height: 300px;
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+#gameTime {
+  color: white;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 43px;
 }
